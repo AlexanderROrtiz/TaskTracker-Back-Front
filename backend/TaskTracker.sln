@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaskTracker.Api", "TaskTracker.Api\TaskTracker.Api.csproj", "{5D7448E7-E58E-4A7D-B87C-835BCD75088B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaskTracker.Application", "TaskTracker.Application\TaskTracker.Application.csproj", "{81343F0F-2AD8-4542-8FFB-BF2BFC94F945}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaskTracker.Domain", "TaskTracker.Domain\TaskTracker.Domain.csproj", "{B5E39AE8-7F28-456C-9137-D55B8ACEC714}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaskTracker.Infrastructure", "TaskTracker.Infrastructure\TaskTracker.Infrastructure.csproj", "{57873DC5-B820-4F8C-B848-D705992EE32A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Elementos de la solución", "Elementos de la solución", "{67632372-55D0-465E-8DE0-26F01C5E3B4B}"
+	ProjectSection(SolutionItems) = preProject
+		Dockerfile = Dockerfile
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5D7448E7-E58E-4A7D-B87C-835BCD75088B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D7448E7-E58E-4A7D-B87C-835BCD75088B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D7448E7-E58E-4A7D-B87C-835BCD75088B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D7448E7-E58E-4A7D-B87C-835BCD75088B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81343F0F-2AD8-4542-8FFB-BF2BFC94F945}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81343F0F-2AD8-4542-8FFB-BF2BFC94F945}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81343F0F-2AD8-4542-8FFB-BF2BFC94F945}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81343F0F-2AD8-4542-8FFB-BF2BFC94F945}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5E39AE8-7F28-456C-9137-D55B8ACEC714}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5E39AE8-7F28-456C-9137-D55B8ACEC714}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5E39AE8-7F28-456C-9137-D55B8ACEC714}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5E39AE8-7F28-456C-9137-D55B8ACEC714}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57873DC5-B820-4F8C-B848-D705992EE32A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57873DC5-B820-4F8C-B848-D705992EE32A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57873DC5-B820-4F8C-B848-D705992EE32A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57873DC5-B820-4F8C-B848-D705992EE32A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5B6A46AF-CB84-4718-B20F-2C8F7F2A9114}
+	EndGlobalSection
+EndGlobal

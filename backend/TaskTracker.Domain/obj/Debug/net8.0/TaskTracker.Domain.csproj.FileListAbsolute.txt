@@ -1,0 +1,11 @@
+C:\.NET 8 Proyectos\CC\TaskTracker.Domain\bin\Debug\net8.0\TaskTracker.Domain.deps.json
+C:\.NET 8 Proyectos\CC\TaskTracker.Domain\bin\Debug\net8.0\TaskTracker.Domain.dll
+C:\.NET 8 Proyectos\CC\TaskTracker.Domain\bin\Debug\net8.0\TaskTracker.Domain.pdb
+C:\.NET 8 Proyectos\CC\TaskTracker.Domain\obj\Debug\net8.0\TaskTracker.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\.NET 8 Proyectos\CC\TaskTracker.Domain\obj\Debug\net8.0\TaskTracker.Domain.AssemblyInfoInputs.cache
+C:\.NET 8 Proyectos\CC\TaskTracker.Domain\obj\Debug\net8.0\TaskTracker.Domain.AssemblyInfo.cs
+C:\.NET 8 Proyectos\CC\TaskTracker.Domain\obj\Debug\net8.0\TaskTracker.Domain.csproj.CoreCompileInputs.cache
+C:\.NET 8 Proyectos\CC\TaskTracker.Domain\obj\Debug\net8.0\TaskTracker.Domain.dll
+C:\.NET 8 Proyectos\CC\TaskTracker.Domain\obj\Debug\net8.0\refint\TaskTracker.Domain.dll
+C:\.NET 8 Proyectos\CC\TaskTracker.Domain\obj\Debug\net8.0\TaskTracker.Domain.pdb
+C:\.NET 8 Proyectos\CC\TaskTracker.Domain\obj\Debug\net8.0\ref\TaskTracker.Domain.dll

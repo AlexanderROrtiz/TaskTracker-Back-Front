@@ -1,0 +1,15 @@
+C:\.NET 8 Proyectos\CC\TaskTracker.Infrastructure\bin\Debug\net8.0\TaskTracker.Infrastructure.deps.json
+C:\.NET 8 Proyectos\CC\TaskTracker.Infrastructure\bin\Debug\net8.0\TaskTracker.Infrastructure.dll
+C:\.NET 8 Proyectos\CC\TaskTracker.Infrastructure\bin\Debug\net8.0\TaskTracker.Infrastructure.pdb
+C:\.NET 8 Proyectos\CC\TaskTracker.Infrastructure\bin\Debug\net8.0\TaskTracker.Domain.dll
+C:\.NET 8 Proyectos\CC\TaskTracker.Infrastructure\bin\Debug\net8.0\TaskTracker.Domain.pdb
+C:\.NET 8 Proyectos\CC\TaskTracker.Infrastructure\obj\Debug\net8.0\TaskTracker.Infrastructure.csproj.AssemblyReference.cache
+C:\.NET 8 Proyectos\CC\TaskTracker.Infrastructure\obj\Debug\net8.0\TaskTracker.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\.NET 8 Proyectos\CC\TaskTracker.Infrastructure\obj\Debug\net8.0\TaskTracker.Infrastructure.AssemblyInfoInputs.cache
+C:\.NET 8 Proyectos\CC\TaskTracker.Infrastructure\obj\Debug\net8.0\TaskTracker.Infrastructure.AssemblyInfo.cs
+C:\.NET 8 Proyectos\CC\TaskTracker.Infrastructure\obj\Debug\net8.0\TaskTracker.Infrastructure.csproj.CoreCompileInputs.cache
+C:\.NET 8 Proyectos\CC\TaskTracker.Infrastructure\obj\Debug\net8.0\TaskTrac.CA91C8E6.Up2Date
+C:\.NET 8 Proyectos\CC\TaskTracker.Infrastructure\obj\Debug\net8.0\TaskTracker.Infrastructure.dll
+C:\.NET 8 Proyectos\CC\TaskTracker.Infrastructure\obj\Debug\net8.0\refint\TaskTracker.Infrastructure.dll
+C:\.NET 8 Proyectos\CC\TaskTracker.Infrastructure\obj\Debug\net8.0\TaskTracker.Infrastructure.pdb
+C:\.NET 8 Proyectos\CC\TaskTracker.Infrastructure\obj\Debug\net8.0\ref\TaskTracker.Infrastructure.dll

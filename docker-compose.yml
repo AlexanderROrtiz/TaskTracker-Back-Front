@@ -1,0 +1,19 @@
+
+services:
+  backend:
+    build:
+      context: ./backend
+    ports:
+      - "5000:8080" # host:container
+    expose:
+      - "8080"
+  
+  frontend:
+    build:
+      context: ./frontend
+      args:
+        VITE_API_BASE_URL: http://backend:8080
+    ports:
+      - "5173:80"
+    depends_on:
+      - backend

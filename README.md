@@ -40,25 +40,28 @@ Cada carpeta tiene su propio `README.md` con detalles específicos.
 - **Docker** y **Docker Compose** instalados
 - (Opcional) `.NET 8 SDK` y **Node.js 18+** para correr localmente
 
-
-
 ## 🐳 Despliegue con Docker Compose
 
-Levantar **backend y frontend** juntos:
-
+# Levantar **backend y frontend** juntos:
 
 docker-compose up --build
+
+# Accede a:
+
+ # Frontend: http://localhost:5173
+
+ # Backend (Swagger): http://localhost:7107/swagger
 
 ## 🔍 Despliegue individual
 
 ## Backend
 cd backend
 docker build -t tasktracker-api .
-docker run -d -p 5000:8080 tasktracker-api
+docker run -d -p 7107:7107 tasktracker-api
 
 ## Frontend
 cd frontend
-docker build --build-arg VITE_API_BASE_URL=http://localhost:5000 -t tasktracker-web .
+docker build --build-arg VITE_API_BASE_URL=http://localhost:7107/api -t tasktracker-web .
 docker run -d -p 5173:80 tasktracker-web
 
 ## Contacto

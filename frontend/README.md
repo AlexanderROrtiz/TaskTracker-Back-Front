@@ -1,7 +1,6 @@
 # 🧭 TaskTracker Web (Frontend)
 
-Aplicación React que consume la API **TaskTracker (.NET 8)** para crear y listar tareas. 
-Construida con **buenas prácticas**: separación por capas (API, hooks, componentes, páginas), logger centralizado y manejo de errores robusto.
+Aplicación React + Vite que consume la API **TaskTracker (.NET 8)** para crear y listar tareas. Diseñada con separación por capas, logger centralizado y manejo de errores robusto.
 
 ## ✅ Funcionalidades
 - Crear una tarea (`name`, `description`)
@@ -22,14 +21,17 @@ config.js # Variables de configuración (API base, versión)
 
 ## 🔧 Requisitos
 - Node.js 18+ (recomendado 20)
-- Backend corriendo (por defecto en `http://localhost:7107` mapeado a .NET `8080` dentro del contenedor)
+- Backend corriendo en `http://localhost:7107/api`
 
 ## 🚀 Desarrollo
 
-cp .env.example .env
-# Ajusta VITE_API_BASE_URL si es necesario
+cp .env.local.example .env.local
+# VITE_API_BASE_URL=http://localhost:7107/api
+
 npm install
 npm run dev
+
+Accede a : http://localhost:5173
 
 ### 🧪 Endpoints consumidos
 
@@ -45,10 +47,11 @@ Configura el nivel con VITE_LOG_LEVEL en .env.
 
 ### 🐳 Docker
 
-Build
-docker build -t tasktracker-web --build-arg VITE_API_BASE_URL=http://localhost:5000 .
+# Build
+docker build -t tasktracker-web --build-arg VITE_API_BASE_URL=/api .
 
-Run
+# Run
 docker run -d -p 5173:80 --name tasktracker-web tasktracker-web
+
 # Front disponible en http://localhost:5173
 

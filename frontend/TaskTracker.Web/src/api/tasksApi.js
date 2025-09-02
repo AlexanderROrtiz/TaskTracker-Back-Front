@@ -2,7 +2,7 @@ import { CONFIG } from '../config';
 import { logger } from '../utils/logger';
 
 //const base = `${CONFIG.API_BASE_URL}/api/${CONFIG.API_VERSION}/tasks`;
-const base = `${CONFIG.API_BASE_URL}/api/tasks`;
+const base = `${CONFIG.API_BASE_URL}/tasks`;
 
 export async function getTasks() {
   const t0 = performance.now();

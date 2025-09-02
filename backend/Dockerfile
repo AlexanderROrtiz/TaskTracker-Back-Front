@@ -1,7 +1,7 @@
 # Imagen base con .NET 8 SDK
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 WORKDIR /src
-EXPOSE 8080
+EXPOSE 7107
 
 # Copiar archivos de proyecto
 COPY TaskTracker.Domain/*.csproj TaskTracker.Domain/

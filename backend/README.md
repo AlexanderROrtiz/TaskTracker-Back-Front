@@ -1,11 +1,9 @@
 ﻿# TaskTracker API
 
-## Descripción
-TaskTracker es una **API REST construida con .NET 8** siguiendo principios de **Clean Architecture** y **SOLID**.
-Su objetivo es permitir la **creación y consulta de tareas** de forma sencilla, pero con una arquitectura lista para escalar a entornos de producción.
+## 🧩 Descripción
+TaskTracker es una **API REST construida con .NET 8** siguiendo principios de **Clean Architecture** y **SOLID**. Permite la **creación y consulta de tareas** con trazabilidad y una arquitectura lista para escalar.
 
-Actualmente utiliza un **repositorio en memoria** para el almacenamiento de datos, pero gracias a la separación en capas, puede migrarse fácilmente a **SQL Server**, **PostgreSQL** o **MongoDB** sin modificar la lógica de negocio.
-
+Actualmente usa un **repositorio en memoria**, pero puede migrarse fácilmente a SQL Server, PostgreSQL o MongoDB sin tocar la lógica de negocio.
 
 ## 🚀 Funcionalidades
 - **Crear tareas** mediante `POST /api/tasks`
@@ -52,7 +50,7 @@ Para obtener todas las tareas, realiza una solicitud `GET` al endpoint `/api/tas
 ### Instalación y Ejecución
 
 git clone https://github.com/AlexanderROrtiz/TaskTracker-Back-Front.git
-cd tasktracker
+cd TaskTracker-Back-Front/backend
 
 ## Restaurar dependencias
 dotnet restore
@@ -61,13 +59,14 @@ dotnet restore
 dotnet run --project TaskTracker.Api
 
 ### Probar endpoints
-https://localhost:5001/swagger
+http://localhost:7107/swagger
 
-### Construir imagen DOCKER
+### 🐳 Docker
+
 docker build -t tasktracker-api .
 
 ### Ejecutar contenedor
-docker run -d -p 5000:8080 --name tasktracker tasktracker-api
+docker run -d -p 7107:7107 --name tasktracker-api tasktracker-api
 
 ## Contacto
 Cualquier duda o inquietud sobre el proyecto estare atento al chat en Linkedin: https://www.linkedin.com/in/roberth-ortiz-b526331a9/

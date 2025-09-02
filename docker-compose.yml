@@ -1,19 +1,33 @@
 
+
 services:
   backend:
     build:
       context: ./backend
+      dockerfile: Dockerfile 
     ports:
-      - "5000:8080" # host:container
-    expose:
-      - "8080"
+      - "7107:7107"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    networks:
+      - app-network
   
   frontend:
     build:
-      context: ./frontend
+      context: ./frontend/TaskTracker.Web
+      dockerfile: Dockerfile 
       args:
-        VITE_API_BASE_URL: http://backend:8080
+        VITE_API_BASE_URL: /api
     ports:
       - "5173:80"
+    environment:
+      - VITE_API_BASE_URL=/api
     depends_on:
       - backend
+    networks:
+      - app-network
+      
+networks:
+  app-network:
+    driver: bridge
+
